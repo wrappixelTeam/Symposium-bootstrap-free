@@ -1,0 +1,33 @@
+.experience-conference{
+    .experience-conference-content{
+        .start-on{
+            line-height: 0;
+            width: fit-content;
+            border-bottom: 9px solid #CFF4FF;
+
+            @include media-breakpoint-down(sm) {
+               margin: 0 auto 15px;
+            }
+        }
+    }
+    .experience-conference-img{
+        .conference-img-left{
+            border-radius: 166px 0px 166px 0px;
+            .name-tag-left{
+                left: -80px;
+                top: 75px;
+                background-color: $light-warning;
+                box-shadow: $box-shadow-sm;
+            }
+        }
+        .conference-img-right{
+            border-radius: 0px 166px 0px 166px;
+            .name-tag-right{
+                right: -80px;
+                top: 100px;
+                background-color: $bg-light-success;
+                box-shadow: $box-shadow-sm;
+            }
+        }
+    }
+}

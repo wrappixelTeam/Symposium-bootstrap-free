@@ -1,0 +1,29 @@
+/*
+Template Name: Symposium
+Author: BBBootstrap
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import "variable";
+@import "bootstrap/bootstrap.scss";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";
+@import "./global";
+
+
+//  Layout
+@import "../scss/layout/footer/footer-dark/footer-dark";
+@import "../scss/layout/header/header";
+
+
+
+//  Slider 
+@import "../scss/sliders/sliders-conference/sliders-conference";
+@import "../scss/sliders/sliders-conference-2/sliders-conference-2";
+
+
+@import "../scss/banners/banner-conference/banner-conference";
+@import "../scss/testimonials/testimonials-conference/testimonials-conference";
+@import "../scss/portfolio/portfolio-conferences/portfolio-conferences";
+@import "../scss/c2a/c2a-conference/c2a-conference";
+@import "../scss/responsive";
